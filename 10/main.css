@@ -1,0 +1,74 @@
+.calc {
+  background: darkblue;
+  width: 400px;
+  height: 400px;
+  position: relative;
+  padding-top: 50px; }
+  .calc .input-area {
+    width: calc(100%);
+    height: calc(50px);
+    background: #646464;
+    position: absolute;
+    top: 0;
+    left: 0; }
+    .calc .input-area #string {
+      width: calc(75% - 2px);
+      height: calc(100% - 2px);
+      float: left;
+      border: 1px solid green; }
+    .calc .input-area #value {
+      width: calc(25% - 2px);
+      height: 100%;
+      float: left;
+      text-align: center;
+      line-height: 50px;
+      font-size: 20px;
+      border: 1px solid green; }
+  .calc .number-area {
+    background: gray;
+    width: 75%;
+    height: 75%;
+    float: left; }
+    .calc .number-area > div {
+      display: block;
+      width: calc(33.333% - 2px);
+      height: calc(33.333% - 2px);
+      float: left;
+      cursor: pointer;
+      text-align: center;
+      line-height: 100px;
+      font-size: 20px;
+      border: 1px solid green; }
+  .calc .bottom-area {
+    height: 100px;
+    width: 75%;
+    background: grey;
+    float: left;
+    position: absolute;
+    left: 0;
+    bottom: 0; }
+    .calc .bottom-area > div {
+      display: block;
+      width: calc(33.333% - 2px);
+      height: calc(100% - 2px);
+      float: left;
+      cursor: pointer;
+      text-align: center;
+      line-height: 100px;
+      font-size: 20px;
+      border: 1px solid green; }
+  .calc .right-area {
+    height: 100%;
+    width: 25%;
+    background: #646464;
+    float: left; }
+    .calc .right-area > div {
+      display: block;
+      width: calc(100% - 2px);
+      height: calc(25% - 2px);
+      float: left;
+      cursor: pointer;
+      text-align: center;
+      line-height: 100px;
+      font-size: 20px;
+      border: 1px solid green; }
