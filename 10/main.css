@@ -11,19 +11,26 @@
     position: absolute;
     top: 0;
     left: 0; }
+    .calc .input-area > div {
+      text-align: center;
+      line-height: 50px; }
     .calc .input-area #string {
-      width: calc(75% - 2px);
-      height: calc(100% - 2px);
-      float: left;
-      border: 1px solid green; }
-    .calc .input-area #value {
+      width: 300px;
+      height: 50px;
+      position: absolute;
+      left: 0;
+      top: 0;
+      background: #8c8c8c; }
+    .calc .input-area #result {
       width: calc(25% - 2px);
       height: 100%;
-      float: left;
+      position: absolute;
+      right: 0;
+      top: 0;
       text-align: center;
       line-height: 50px;
       font-size: 20px;
-      border: 1px solid green; }
+      background: #828282; }
   .calc .number-area {
     background: gray;
     width: 75%;
